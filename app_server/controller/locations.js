@@ -64,7 +64,7 @@ module.exports.locationInfo = function(req, res) {
                 closed: true
             }],
             reviews: [{
-                author: 'Simon Holmes',
+                author: 'Siri madishetty',
                 rating: 5,
                 timestamp: '16 July 2013',
                 reviewText: 'What a great place. I can\'t say enough good things about it.'
