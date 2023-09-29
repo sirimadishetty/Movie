@@ -31,9 +31,9 @@ module.exports.homelist = function(req, res) {
 
 module.exports.locationInfo = function(req, res) {
     res.render('location-info', {
-    title: 'Starcups',
+    title: 'Asain Muktha mall',
     pageHeader: {
-    title: 'Starcups'
+    title: 'Asain Muktha mall'
     },
     sidebar: {
     context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
@@ -41,10 +41,10 @@ module.exports.locationInfo = function(req, res) {
     callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
     },
     location: {
-    name: 'Starcups',
-    address: '125 High Street, Reading, RG6 1PS',
+    name: 'Asain Muktha mall',
+    address: 'Narapally, Ghatkesar',
     rating: 3,
-    facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+    facilities: ['jailer', 'Heart of stone', 'kushi'],
     coords: {
     lat: 51.455041,
     lng: -0.9690884
@@ -64,7 +64,7 @@ module.exports.locationInfo = function(req, res) {
     closed: true
     }],
     reviews: [{
-    author: 'Simon Holmes',
+    author: 'Siri madishetty',
     rating: 5,
     timestamp: '16 July 2013',
     reviewText: 'What a great place. I can\'t say enough good things about it.'
@@ -72,7 +72,7 @@ module.exports.locationInfo = function(req, res) {
     author: 'Charlie Chaplin',
     rating: 3,
     timestamp: '16 June 2013',
-    reviewText: 'It was okay. Coffee wasn\'t great, but the wifi was fast.'
+    reviewText: 'Had a fun experience!'
     }]
         
     }
@@ -81,9 +81,9 @@ module.exports.locationInfo = function(req, res) {
 
         module.exports.locationInfo1 = function(req, res) {
             res.render('location-info1', {
-            title: 'Cafe hero',
+            title: 'Inorbit mall',
             pageHeader: {
-            title: 'Cafe hero'
+            title: 'Inorbit mall'
             },
             sidebar: {
             context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
@@ -91,10 +91,10 @@ module.exports.locationInfo = function(req, res) {
             callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
             },
             location: {
-            name: 'Cafe hero',
-            address: '125 High Street, Reading, RG6 1PS',
+            name: 'Inorbit mall',
+            address: 'Mindspace, Madhapur, Hyderabad',
             rating: 3,
-            facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+            facilities: ['jailer', 'Heart of stone', 'kushi'],
             coords: {
             lat: 51.455041,
             lng: -0.9690884
@@ -131,9 +131,9 @@ module.exports.locationInfo = function(req, res) {
 
             module.exports.locationInfo2 = function(req, res) {
                 res.render('location-info2', {
-                title: 'Burger queen',
+                title: 'DSL mall',
                 pageHeader: {
-                title: 'Burger queen'
+                title: 'DSL mall'
                 },
                 sidebar: {
                 context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
@@ -141,10 +141,10 @@ module.exports.locationInfo = function(req, res) {
                 callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
                 },
                 location: {
-                name: 'Burger queen',
-                address: '125 High Street, Reading, RG6 1PS',
+                name:'DSL mall',
+                address: 'Ramanthapur, uppal',
                 rating: 3,
-                facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+                facilities: ['jailer', 'Heart of stone', 'kushi'],
                 coords: {
                 lat: 51.455041,
                 lng: -0.9690884
